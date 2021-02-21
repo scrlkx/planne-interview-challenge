@@ -19,9 +19,10 @@ sobre [Docker](https://www.docker.com) e também querer [docker-compose](https:/
 5. Acesse o container principal com `sail shell`
 6. Crie a sua chave com `php artisan key:generate`
 7. *Rode migrations e seeds com `php artisan migrate:refresh --seed`
-8. Instale mais dependências com `npm install` (isso requer o [npm](https://www.npmjs.com))
+8. Instale mais dependências com `npm install`
 9. Compile o front-end com `npm run dev`
-10. Me avise se algo sair errado
+10. Acesse http://localhost
+11. Me avise se algo sair errado
 
 Sobre o passo 8: o comando `php artisan migrate:refresh --seed` insere dados fictícios na base de dados para os
 testes. Para evitar este comportamento substitua o comando por `php artisan migrate:refresh`.

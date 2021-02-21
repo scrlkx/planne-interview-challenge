@@ -5,9 +5,8 @@ na [@planne](https://www.planne.com.br/). Este é um CRUD básico para gerenciam
 
 ## Stack
 
-O back-end foi construído com a stack PHP 8 + Laravel 8, pensando em rodar sobre uma base de dados MySQL. O front-end
-foi construído com [Inertia.js](https://inertiajs.com), uma camada sobre [Vue.js](https://vuejs.org) para aplicações monolíticas e Tailwind CSS. Para ambientes de
-desenvolvimento utiliza-se o [Laravel Sail](https://laravel.com/docs/8.x/sail) que roda
+O back-end foi construído com a stack PHP 8 + Laravel 8, pensando para rodar sobre uma base de dados MySQL. O front-end
+foi construído [Tailwind CSS](https://tailwindcss.com) e [Inertia.js](https://inertiajs.com) (uma camada sobre [Vue.js](https://vuejs.org) para aplicações monolíticas). Em ambientes de desenvolvimento utiliza-se o [Laravel Sail](https://laravel.com/docs/8.x/sail) que roda
 sobre [Docker](https://www.docker.com) e também querer [docker-compose](https://docs.docker.com/compose).
 
 ### Setup

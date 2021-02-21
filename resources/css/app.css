@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply h-screen;
+    @apply w-screen;
+}
+
+#app {
+    @apply flex;
+    @apply flex-col;
+    @apply h-full;
+}
+
+table {
+    @apply table-fixed;
+    @apply w-full;
+}
+
+table th {
+    @apply bg-gray-100;
+    @apply font-semibold;
+    @apply py-2;
+    @apply text-gray-600;
+    @apply text-sm;
+    @apply uppercase;
+}
+
+table td {
+    @apply border-b;
+    @apply border-gray-200;
+    @apply break-words;
+    @apply py-4;
+}
+
+table th, table td {
+    @apply px-5;
+    @apply text-left;
+}
